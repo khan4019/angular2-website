@@ -1,0 +1,50 @@
+.demo-layout-transparent {
+    background: url('../images/back.jpg') center / cover;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+    color: white;
+}
+
+.mdl-layout__header-row {
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+.page-title {
+    text-align: center;
+    color: #e15d00;
+    font-weight: 700;
+    font-size: 5em;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.playlist-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tutorial-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-item {
+    margin-top: 50px;
+    height: 580px;
+    width: 1000px;
+}
+
+.playlist-holder {
+    width: 1000px;
+}
+
+.hide {
+    display: none;
+}
