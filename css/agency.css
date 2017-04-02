@@ -169,7 +169,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    color: #f15b2a;
+    color: white;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
 }
 
@@ -243,7 +243,8 @@ fieldset[disabled] .btn-xl.active {
         border-radius: 3px
     }
     .navbar-default.navbar-shrink {
-        background-color: #222;
+        background-color: rgba(34, 34, 34, 0.45);
+        ;
         padding: 10px 0
     }
     .navbar-default.navbar-shrink .navbar-brand {
